@@ -1,0 +1,101 @@
+body,
+div,
+img,
+a,
+canvas,
+video {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+
+.container div,
+.container img,
+.container video,
+.container canvas,
+.container a {
+    position: absolute;
+}
+
+.container,
+.exit-btn,
+.white_bg {
+    width: 300px;
+    height: 600px;
+}
+
+.exit-btn {
+    background-color: white;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.white_bg {
+    background: white;
+    opacity: 0;
+}
+
+
+/**** Custom CSS ****/
+.pidgin_handler{
+    position: absolute;
+    overflow: hidden;
+    width: 35px;
+    height: 48px;
+    /*left: 100px;*/
+    /*top: 200px;*/
+}
+
+.copy1, 
+.copy1_2,
+.copy1_3,
+.copy1_4,
+.legal,
+.cta, 
+.copy3,
+.content_blue_container,
+.logo_blue,
+.logo_white{
+    left: 0;
+    top: 0;
+}
+.blue_container {
+    width: 164px;
+    height: 87px;
+    left: 0;
+    top: 98px;
+    background: #0b3565;
+}
+.left_border {
+    width: 11px;
+    height: 600px;
+    background: rgba(246, 243, 242, 0.85);
+    left: 0;
+    top: 0;
+}
+
+.bottom_border {
+    width: 278px;
+    height: 66px;
+    background: rgba(246, 243, 242, 0.85);
+    left: 11px;
+    top: 534px;
+}
+
+.right_border {
+    width: 11px;
+    height: 600px;
+    background: rgba(246, 243, 242, 0.85);
+    left: 289px;
+    top: 0;
+}
+.end_bg{
+    position: absolute;
+    width: 300px;
+    height: 600px;
+}
